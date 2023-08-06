@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main.xml"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.navdrawer.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/loclaisation"
+        android:name="com.example.navdrawer.LocalisationFragment"
+        android:label="Localisation"
+        tools:layout="@layout/localisationfragment" />
+    <fragment
+        android:id="@+id/actualiter"
+        android:name="News.ActualitesFragment"
+        android:label="Actualites"
+        tools:layout="@layout/actualitesfragment" />
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.navdrawer.authentification.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/loginfragment" />
+    <fragment
+        android:id="@+id/register"
+        android:name="com.example.navdrawer.authentification.register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+
+</navigation>

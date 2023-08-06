@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NavDrawer</string>
+    <string name="navigation_draw_open">open navigation drawer</string>
+    <string name="navigation_draw_close">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="light_theme_form">light_theme</string>
+    <string name="dark_theme_form">dark_theme</string>
+    <string name="bt_supported_card_types_description" />
+    <string name="valid" />
+
+    <string name="purchase">Purchase</string>
+
+    <string name="invalid">Form is invalid</string>
+    <string name="label_buy_now">procéder au paiement</string>
+
+
+</resources>

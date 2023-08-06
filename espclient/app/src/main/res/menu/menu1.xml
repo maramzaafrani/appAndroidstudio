@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/dec_sinistre"
+            android:title="Déclaration de sinistre"
+            android:icon="@drawable/ic_baseline_create_24">
+
+
+        </item>
+
+        <item android:id="@+id/contrat"
+            android:title="mes contrats"
+            android:icon="@drawable/ic_baseline_content_paste_24">
+
+
+        </item>
+        <item android:id="@+id/paiement"
+            android:title="paiement"
+            android:icon="@drawable/ic_baseline_credit_card_24">
+
+
+        </item>
+
+
+    </group>
+
+</menu>

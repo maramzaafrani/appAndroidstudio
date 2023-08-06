@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sinistre" />
+
+    <EditText
+        android:id="@+id/edit_text_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nom"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_text_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prenom"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_text_adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adresse"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_text_matricule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="matricule"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_text_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_text_Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <EditText
+        android:id="@+id/edit_text_message"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="message"
+        android:inputType="textLongMessage"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black" />
+
+    <Button
+        android:id="@+id/saveNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveNote"
+        android:text="enregistrer"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveNote"
+        android:text="annuler"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

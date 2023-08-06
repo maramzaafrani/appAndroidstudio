@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/clients">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:layout_marginStart="122dp"
+        android:fontFamily="@font/aclonica"
+        android:text=" AMI assurance"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp">
+
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginStart="174dp"
+        android:fontFamily="@font/aclonica"
+        android:text="امي للتامين "
+        android:textColor="#C60606"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="283dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-21dp"
+        android:layout_marginEnd="-14dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Espace client "
+        android:textColor="#0921A6"
+        android:textSize="24sp">
+
+    </TextView>
+
+</RelativeLayout>

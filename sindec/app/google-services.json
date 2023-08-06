@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965076335668",
+    "project_id": "sindec-187b6",
+    "storage_bucket": "sindec-187b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965076335668:android:6a65bdc9262b3046779e61",
+        "android_client_info": {
+          "package_name": "com.example.sindec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965076335668-anrli61qqvpgd1m11sms5ahkpak025ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD86wiwkbvmgX21E5gSd4ePBz4gAfLr9yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965076335668-anrli61qqvpgd1m11sms5ahkpak025ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
